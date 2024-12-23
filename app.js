@@ -62,8 +62,6 @@ document.write(`<p>Las <b>Backticks</b> (&#96 &#96), tambien conocidas como <b>c
 
 //declaramos una variable que va a crear un elemento div con la propiedad createElement
 const div = document.createElement('div');
-
-
 //Con la propiedad .id le asignamos un id 
 div.id = 'text1';
 
@@ -77,3 +75,35 @@ document.addEventListener("DOMContentLoaded", function(){
     text1.textContent = 'Hola soy un texto';
 }
 );
+
+
+
+
+//Operaciones aritmeticas
+
+
+
+
+//Suma
+let a = 10;
+let b = 5;
+
+let c = a + b;
+document.write(c);
+
+
+//Concatenacion 
+
+let username = 'Cyborg';
+let greeting = 'Welcome ' +  username;
+
+
+//Comparaciones
+
+let x1 = 10; 
+let y = 20;
+
+
+const crearDiv = document.createElement('div');
+div.id = 'operations';
+

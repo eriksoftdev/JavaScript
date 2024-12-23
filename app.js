@@ -89,7 +89,11 @@ let a = 10;
 let b = 5;
 
 let c = a + b;
-document.write(c);
+
+if (c == 15) console.log('c es igual a 15')
+    
+
+
 
 
 //Concatenacion 
@@ -103,7 +107,14 @@ let greeting = 'Welcome ' +  username;
 let x1 = 10; 
 let y = 20;
 
+let result = x1 - y;
 
-const crearDiv = document.createElement('div');
-div.id = 'operations';
+let falseOrTrue = result < 0;
+console.log(falseOrTrue);
+
+if (result < 0) {
+    console.log('x1 es menor que y por lo tanto la condicional es: + falseOrTrue');
+}
+
+
 

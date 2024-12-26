@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //anade un texto al div con textContent
   text1.textContent = "Hola soy un texto";
 
+
 });
 
 
@@ -78,6 +79,10 @@ function showMessage() {
   
   let nombreDeUsuario = prompt("Ingresa un nombre de usuario");
   document.getElementById('userName').textContent = 'Hola ' + nombreDeUsuario;
+
+  if (nombreDeUsuario == '' ){
+    document.body.style.backgroundColor = "red";
+  }
   }
 
 

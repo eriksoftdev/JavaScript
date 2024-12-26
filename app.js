@@ -173,6 +173,6 @@ function miFuncion(){
     console.log('Hello World from a function');
 }
 
-miFuncion();  
+miFuncion(); 
 
-
+console.log('Cambio')

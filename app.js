@@ -60,23 +60,25 @@ const div = document.createElement("div");
 div.id = "text1";
 
 //Agregamos un EventListener para asegurarnos que se ha cargado el DOM para que podamos acceder al elemento creado
-//para depues añadirle un texto con la propiedad .textContent
 
 document.addEventListener("DOMContentLoaded", function () {
+
+  //asigna a una variable el acceso al elemento div1
   let text1 = document.getElementById("div1");
+  //anade un texto al div con textContent
   text1.textContent = "Hola soy un texto";
 
+});
 
 
 
 //Entrada de usuario con prompt()  
 
-let nombreDeUsuario = prompt("Ingresa un nombre de usuario");
-document.getElementById('userName').textContent = 'Hola ' + nombreDeUsuario;
-});
-
-
-
+function showMessage() {
+  
+  let nombreDeUsuario = prompt("Ingresa un nombre de usuario");
+  document.getElementById('userName').textContent = 'Hola ' + nombreDeUsuario;
+  }
 
 
 
@@ -173,6 +175,4 @@ function miFuncion(){
 
 miFuncion();  
 
-
-//Entrada de usuario 
 

@@ -175,4 +175,3 @@ function miFuncion(){
 
 miFuncion(); 
 
-console.log('Cambio')
